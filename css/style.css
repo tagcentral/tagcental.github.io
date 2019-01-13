@@ -1,0 +1,202 @@
+a
+{
+	color: black;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #0040b5;
+}
+
+body
+{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+	font-size: 13px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.error
+{
+	color: #C30;
+	display: none;
+}
+
+.error-message { color: #C30; }
+
+.item
+{
+	font-size: 12px;
+}
+
+.name img { border-style: none; }
+
+.no-result { color: #900; }
+
+.source
+{
+	border-width: 2px;
+	border-style: solid;
+}
+
+.tag { color: #600; }
+
+#about-description a
+{ color: #0040b5; }
+
+#footer
+{
+	clear: both;
+	text-align: center;
+	background-color: #CCC;
+	padding: 0.5em;
+	text-shadow: 2px 2px 1px #fff;
+}
+
+#title
+{
+	background-image: url(/images/tigerstripe.png);
+	background-repeat: repeat-x;
+	padding: 10px;
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	display: block;
+	height: 20px;
+	text-shadow: 2px 2px 1px #333;
+	margin: 0;
+}
+
+#search fieldset
+{
+	position: absolute;
+	top: 8px;
+	right: 10px;
+	border-style: none;
+}
+
+#search form, #search fieldset
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+#result-header
+{
+	margin: 0px;
+	font-size: 15px;
+	height: 20px;
+	background-color: #ccd9eb;
+	padding: 10px;
+	text-shadow: 2px 2px 1px #fff;
+	background-color: #ddd;
+	color: #383838;
+}
+
+.name
+{
+	margin: 3px;
+	font-size: 15px;
+	text-shadow: 2px 2px 1px #ddd;
+}
+
+/* source colors */
+#fortythreethings
+{
+	border-color: #960;
+	background-color: #C96;
+}
+
+#consumating
+{
+	border-color: #063;
+	background-color: #6C9;
+}
+
+#blogmarks, #blogmarks li, #delicious, #furl, #jots, #delirious, #wists
+{
+	border-color: #00C;
+	background-color: #9CF;
+}
+
+#flickr, #flickr li, #smugmug, #smugmug li
+{
+	border-color: #390;
+	background-color: #9F9;
+}
+
+#tagsurf
+{
+	border-color: #FC0;
+	background-color: #FC6;
+}
+
+#technorati, #podcasttag
+{
+	border-color: #FF0;
+	background-color: #FFC;
+}
+
+#upcoming
+{
+	border-color: #900;
+	background-color: #F66;
+}
+
+#flickr
+{
+	width: 260px;
+	float: left;
+	margin: 0 5px 0 5px;
+}
+
+#right-side
+{
+	width: 170px;
+	float: right;
+	margin: 0 5px 0 5px;
+}
+
+#flickr    ul,
+#smugmug   ul,
+#blogmarks ul,
+#wists     ul
+{
+	list-style-type: none;
+	padding: 0 10px 0 10px;
+}
+
+#flickr    ul li.item,
+#smugmug   ul li.item,
+#blogmarks ul li.item,
+#wists     ul li.item
+{
+	border-width: 1px 0 0 0;
+	border-style: solid;
+}
+
+#middle { margin: 0 180px 0 274px; }
+
+.source { margin-bottom: 5px; }
+
+#related
+{
+	padding: 0.5em;
+	border-style: solid none solid none;
+	margin: 0px;
+	border-color: #CCC;
+	border-width: 1px;
+	background-color: #eee;
+	line-height: 20px;
+	height: 18px;
+	font-size: 13px;
+	color: #4d4d4d;
+	text-shadow: 2px 2px 1px #fff;
+	padding-top: 6px;
+	padding-right: 10px;
+	padding-bottom: 6px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
